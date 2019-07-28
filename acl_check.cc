@@ -41,7 +41,7 @@ int main() {
                     dwResult = GetLastError();
                     if (dwResult != 122) {
                         return 3;
-                    } 
+                    }
 
                 } 
                 pUserInfo = (PTOKEN_USER)GlobalAlloc(GPTR, dwSize);
